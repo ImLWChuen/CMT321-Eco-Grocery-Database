@@ -4,7 +4,7 @@ This project contains the complete 18-table relational database schema, seed dat
 
 ---
 
-## ⚡ Quick Start for Teammates (Direct in MySQL Workbench)
+## ⚡ Quick Start (Direct in MySQL Workbench)
 
 1. **Download the file from GitHub:**
    - Go directly to: [Eco_Grocery_MySQL_Schema_and_Sample_Data.sql on GitHub](https://github.com/ImLWChuen/CMT321-Eco-Grocery-Database/blob/main/Eco_Grocery_MySQL_Schema_and_Sample_Data.sql)
