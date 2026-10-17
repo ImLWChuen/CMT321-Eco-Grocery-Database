@@ -4,11 +4,26 @@ This project contains the complete 18-table relational database schema, seed dat
 
 ---
 
+## ⚡ Quick Start for Teammates (Direct in MySQL Workbench)
+
+1. **Download the file from GitHub:**
+   - Go directly to: [Eco_Grocery_MySQL_Schema_and_Sample_Data.sql on GitHub](https://github.com/ImLWChuen/CMT321-Eco-Grocery-Database/blob/main/Eco_Grocery_MySQL_Schema_and_Sample_Data.sql)
+   - Click the **Download raw file** button (icon at the top-right of the file viewer).
+
+2. **Open it in MySQL Workbench:**
+   - Open MySQL Workbench and connect to your MySQL server.
+   - Click **File** > **Open SQL Script...** and select the downloaded `.sql` file.
+
+3. **Click Run:**
+   - Click the **Lightning Bolt (⚡)** icon to execute from top to bottom.
+   - Click the **Refresh (🔄)** icon on the left under **Schemas** to see `eco_grocery_cmt321` and all 18 tables ready to use!
+
+---
+
 ## 📁 Repository Files
 
 - [Eco_Grocery_MySQL_Schema_and_Sample_Data.sql](file:///c:/CMT321%20-%20Eco-Grocery%20Database/Eco_Grocery_MySQL_Schema_and_Sample_Data.sql) — Main SQL script containing DDL (18 tables + 1 view), transactional seed procedure (`seed_eco_grocery()`), and verification queries.
-- [start_mysql_service.cmd](file:///c:/CMT321%20-%20Eco-Grocery%20Database/start_mysql_service.cmd) — Windows batch helper to start the `MySQL80` service (run as Administrator).
-- [run_database_setup.cmd](file:///c:/CMT321%20-%20Eco-Grocery%20Database/run_database_setup.cmd) — Windows batch runner that executes the SQL script via `mysql` CLI.
+- [connect_mysql_cli.cmd](file:///c:/CMT321%20-%20Eco-Grocery%20Database/connect_mysql_cli.cmd) — Windows batch helper to connect to Docker MySQL with formatted CLI output.
 
 ---
 
