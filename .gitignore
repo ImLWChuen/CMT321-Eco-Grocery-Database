@@ -1,0 +1,18 @@
+# MySQL data and temporary files
+.mysql_data/
+*.log
+*.tmp
+*.bak
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.user
